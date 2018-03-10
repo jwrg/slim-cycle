@@ -1,0 +1,45 @@
+# cycle theme for SLiM
+# jwrg@uvic.ca
+
+# Messages (ie: shutdown)
+msg_color               #eeeeee
+msg_font                Terminus:size=22:bold
+msg_x                   80%
+msg_y                   80%
+msg_shadow_color        #298203
+msg_shadow_xoffset      1
+msg_shadow_yoffset      1
+
+# valid values: stretch, tile
+background_style        stretch
+
+# Input controls
+input_panel_x           50%
+input_panel_y           50%
+input_name_x            40
+input_name_y            102
+input_font          	Terminus:size=18
+input_bgcolor           #ffffff
+input_fgcolor           #000000
+
+# Welcome message
+welcome_font          	Terminus:size=24:bold
+welcome_color          	#ffffff
+welcome_shadow_color    #22ee22
+welcome_shadow_xoffset 1
+welcome_shadow_yoffset 1
+welcome_x              	50%
+welcome_y              	35
+
+# Username / password request
+username_font          	Terminus:size=18
+username_color          #ffffff
+username_shadow_color   #22ee22
+username_shadow_xoffset 1
+username_shadow_yoffset 1
+username_x              50%
+username_y              150
+password_x              50%
+password_y              150
+username_msg            Shuff username dis way
+password_msg            Shuff password dis way
